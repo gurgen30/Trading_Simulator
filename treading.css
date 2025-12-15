@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #020617;
+    color: white;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+/* верхняя панель */
+.top {
+    height: 40px;
+    background: #020617;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #334155;
+}
+
+/* график на весь экран */
+#chart {
+    display: block;
+    width: 100vw;
+    height: calc(100vh - 100px);
+}
+
+/* кнопки снизу */
+.panel {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #020617;
+    border-top: 1px solid #334155;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.buy {
+    background: green;
+}
+
+.sell {
+    background: red;
+}
